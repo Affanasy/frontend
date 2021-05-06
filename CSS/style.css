@@ -1,0 +1,201 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, helvetica, sans-serif;
+}
+ 
+body
+{
+    background-color: gainsboro;
+}
+ 
+.main-page
+{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header
+{
+    background-color: #002763;
+    color: white;
+    padding: 20px;
+	text-align: center;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+	text-align: center;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #002763;
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li 
+{
+    float: left;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+	
+}
+ 
+.navigasi li a:hover 
+{
+    background-color: #008001;
+	border-radius: 10px;
+    transition-duration: 2s;
+}
+
+.navigasi li input
+{
+  width: 100%;
+  padding: 0px 10px;
+  margin: 12px 0;
+  display: inline-block;
+
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+	
+}
+ 
+.kotak h4
+{
+    background-color: #008001;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+ 
+.menu-tengah
+{
+    width: 750px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: white;
+    color: #E54700;
+    margin-bottom: 0;
+}
+ 
+.tanggal-posting
+{
+    color: white-space;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+	
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+ 
+.tombol-lengkap
+{
+    background-color: maroon;
+	
+}
+ 
+.menu-kanan
+{
+    width: 275px;
+    float: right;
+	
+}
+	
+ 
+.menu-kanan, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+footer
+{
+    clear: both;
+    background-color: #008001;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+.menu-artikel ul
+{
+    list-style-type: none;
+	padding: 13px;
+}
+ 
+.menu-artikel ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 2px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+	text-align: center;
+}
+ 
+.menu-artikel ul li a:hover
+{
+    color: maroon;
+    border-bottom: 6px maroon;
+    transition-duration: 2s;
+}
